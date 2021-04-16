@@ -8,7 +8,7 @@
 
 ## 1. Installation.
 
-Other than he standard Anaconda distribution of Python 3 you will also need SKLearn which documentation can be found [here](https://scikit-learn.org/stable/install.html)
+Other than the standard Anaconda distribution of Python 3 you will also need SKLearn which documentation can be found [here](https://scikit-learn.org/stable/install.html)
 
 ## 2. Motivation
 
@@ -16,8 +16,9 @@ I wanted to create a simple classifier based soley from text vector counts. Idea
 
 ## 3. File Descriptions
 
-____Twitter Sentiment Classifier.ipynb _____
-There is one jupyter notebook file that does what I set out to do. It classifies sentiment in given text based from the tweets in Sentiment140.
+`Twitter Sentiment Classifier.ipynb`
+
+This classifies sentiment in given text based from the tweets in Sentiment140.
 
 This is pretty standard Multinomial Naive Bayes implementation. First splitting the data into labels and a training list of tweets. After this it creates vector counts of tweets before making predicitons. It includes a cell at the bottom to test custom text.
 
